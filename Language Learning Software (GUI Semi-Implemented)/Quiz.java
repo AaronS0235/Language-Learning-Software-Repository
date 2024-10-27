@@ -17,7 +17,6 @@ public abstract class Quiz {
         this.lessons = lessons;
     }
 
-    // Abstract method to display the quiz content, forcing subclasses to implement.
     public abstract String showQuiz();
 }
 
