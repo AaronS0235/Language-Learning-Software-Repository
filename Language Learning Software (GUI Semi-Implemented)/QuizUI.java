@@ -50,7 +50,6 @@ public class QuizUI extends JFrame {
         }
     }
 
-    // Polymorphic method that creates the appropriate quiz based on the language.
     private Quiz createQuiz(String language) {
         switch (language) {
             case "Hindi":
