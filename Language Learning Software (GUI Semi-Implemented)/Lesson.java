@@ -11,20 +11,24 @@ package pdc_assignment2_sem2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lesson {
+public class Lesson 
+{
     private String title;
     private List<VocabItem> vocabItems;
 
-    public Lesson(String title) {
+    public Lesson(String title) 
+    {
         this.title = title;
         this.vocabItems = new ArrayList<>();
     }
 
-    public String getTitle() {
+    public String getTitle() 
+    {
         return title;
     }
 
-    public List<VocabItem> getVocabItems() {
+    public List<VocabItem> getVocabItems() 
+    {
         return vocabItems;
     }
 
